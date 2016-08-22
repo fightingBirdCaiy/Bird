@@ -3,7 +3,7 @@ package com.caiy.bird;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.widget.TextView;
-import butterknife.BindView;
+import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
  */
 public class ButterKnifeActivity extends FragmentActivity {
 
-    @BindView(R.id.butterknife_tv)
+    @Bind(R.id.butterknife_tv)
     TextView textView;
 
     @Override
